@@ -1,0 +1,1 @@
+1) SELECT title FROM articles WHERE author_id = (SELECT id FROM authors WHERE name='Kara Melton');
